@@ -1,0 +1,15 @@
+.profile-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.profile-pic {
+    width: 150px;       /* Adjust the size as per your design */
+    height: 150px;      /* Keep width and height the same for a circle */
+    border-radius: 50%; /* This makes the image round */
+    object-fit: cover;  /* Ensure the image fits within the circle */
+    border: 5px solid #fff; /* Optional: Add a white border for aesthetic */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add a subtle shadow */
+}
